@@ -4,18 +4,29 @@ header {
 }
 
 .Navbar {
-   
-    justify-content: center;
     height: 50px;
+    width:100%;
+    display: flex-end;
+    position: sticky;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.NavMenu {
+    justify-content: right;
+    align-items: right;
+    height: 100%;
     width:100%;
     display: flex;
     position: sticky;
     color:black;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .Navbar-container {
     height: 50px;
     display: flex;
+    justify-content: center;
 }
 
 .Navbar-link {
@@ -80,7 +91,7 @@ a:hover {
     color: #cac7ea;
 }
 
-.Burger{
+.MenuIcon{
     display: flex;
     justify-content: right;
     align-items: right;
@@ -94,10 +105,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    .Burger {display: none;}
+    .Navbar-container {display: none;}
 }
 
 @media only screen and (min-width: 601px) {
-    .Navbar-menu-icon { display: none;}
+    .MenuIcon { display: none;}
 }
 

@@ -23,7 +23,7 @@ function Home() {
           <Link to='/about'>
             <div class="card w-auto">
               <div class="card-img-top">
-                <img src="" class="d-block w-100" alt="Isabelle Maddox in front of a curtain of lights" />
+                <img src="/images/me_lights.jpg" class="d-block w-100" alt="Isabelle Maddox in front of a curtain of lights" />
               </div>
               <div class="card-body">
                 <h3 class="card-title">About Me</h3>
@@ -35,7 +35,7 @@ function Home() {
           <Link to="/projects">
             <div class="card w-auto">
               <div class="card-img-top">
-                <img src="" class="d-block w-100" alt="GIF showing puzzle scene gameplay for The Brilliant Detective Milo" />
+                <img src="/gifs/milopuzzlescene.gif" class="d-block w-100" alt="GIF showing puzzle scene gameplay for The Brilliant Detective Milo" />
               </div>
               <div class="card-body">
                 <h3 class="card-title">My Projects</h3>

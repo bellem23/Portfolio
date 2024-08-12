@@ -14,9 +14,11 @@ function Navbar() {
   if (click) {
     return (
       <header>
-        <nav className="Navbar">
+        <nav className="NavMenu">
           <Menu className="Menu" />
-          <Hamburger className="Burger" toggled={click} toggle={setClick} />
+          <div className="MenuIcon">
+              <Hamburger toggled={click} toggle={setClick} />
+          </div>
         </nav>
       </header>
     )
@@ -39,7 +41,9 @@ function Navbar() {
                   Contact
                 </Link>
             </div>
-            <Hamburger className="Burger" toggled={click} toggle={setClick} />
+            <div className="MenuIcon">
+              <Hamburger toggled={click} toggle={setClick} />
+            </div>
         </nav>
         
     </header>
