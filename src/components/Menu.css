@@ -1,0 +1,18 @@
+.Menu-container {
+        justify-content:center;
+        text-align: center;
+        font-size: 1.5em;
+        letter-spacing: 0.15em;
+        padding: 1em;
+        padding-top: 0;
+        background-color: white;
+    }
+
+.Navbar-link {
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    color:black;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 1);
+}

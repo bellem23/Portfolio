@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+  color:black;
+  
+}
+
+.about-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	background-attachment: fixed;
+	background-size: 100vw 100vh;
+	background-color:#cac7ea;
+  background-image: linear-gradient(#cac7ea,#d7c8e7,#d8bfd8);
+}
+
+h1,
+h2,
+p {
+	font-weight: 400;
+}
+
+p {
+	line-height: 1.5;
+}
+
+a {
+	color: var(--color-theme-1);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+h2 {
+	font-size: 1rem;
+}
+
+
+.text-column {
+	display: flex;
+	max-width: 48rem;
+	flex: 0.6;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+input,
+button {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+button:focus:not(:focus-visible) {
+	outline: none;
+}
+
+@media (min-width: 720px) {
+	h1 {
+		font-size: 2.4rem;
+	}
+}
+
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+
