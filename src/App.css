@@ -2,7 +2,6 @@
   text-align: center;
   justify-content: center;
   color:black;
-  
 }
 
 .about-image {
@@ -25,8 +24,13 @@ p {
 	font-weight: 400;
 }
 
+h1 {
+  font-family: "Comfortaa", sans-serif;
+}
+
 p {
 	line-height: 1.5;
+  font-family: "Fredoka", sans-serif;
 }
 
 a {
