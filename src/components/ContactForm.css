@@ -1,0 +1,24 @@
+h1 {
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+}
+
+#honeypot {
+    display:none;
+}
+
+form {
+    background-color: white;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#submitButton{
+    text-align: center;
+}
+
+button:hover {
+    background-color: #cac7ea;
+    border-color: #cac7ea;
+}
+
