@@ -13,8 +13,8 @@ header {
 }
 
 .NavMenu {
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width:100%;
     display: flex;
@@ -92,15 +92,14 @@ a:hover {
 }
 
 .MenuIcon{
-    display: flex;
+    position:absolute;
+    right:0;
+    top:0;
     justify-content: right;
     align-items: right;
 }
 
-.Menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.MenuContent{
     color: white;
 }
 

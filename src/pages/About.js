@@ -3,7 +3,6 @@ import '../App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-//import ProfilePhoto from '/images/me.JPEG'
 
 function About() {
   return (
@@ -11,10 +10,7 @@ function About() {
       <h1>About</h1>
       <div class="row" id="about">
         <div class="col-md-6 col-sm-12">
-          <picture>
-            <source srcset="/images/me.jpg" type="image/jpg" />
-            <img src="/images/me.jpg" alt="Isabelle Maddox" />
-          </picture>
+          <img src={process.env.PUBLIC_URL +"/images/me.jpg"} class="img w-100" alt="Isabelle Maddox" />
         </div>
         <div class="col-md-6 col-sm-12" id="about">
           <p id="Background">
@@ -33,8 +29,8 @@ function About() {
             Besides working with VGDC, Isabelle sang as a member of UCI Chamber Singers. In her free time, she enjoys reading fantasy novels, playing video games, singing and sewing.
           </p>
           <div class="row-md-6">
-            <a href="/" target="_blank" class="btn btn-primary">Software Engineer Resume</a>
-            <a href="/" target="_blank" class="btn btn-primary">Gameplay Programmer Resume</a>
+            <button href="/" target="_blank" class="btn btn-primary btn-dark m-2 d-inline">Software Engineer Resume</button>
+            <button href="/" target="_blank" class="btn btn-primary btn-dark m-2 d-inline">Gameplay Programmer Resume</button>
           </div>
         </div>
       </div>

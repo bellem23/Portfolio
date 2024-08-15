@@ -12,8 +12,8 @@ function Projects() {
   return (
     <div>
       <h1>Projects</h1>
-      <p>
-        Temp
+      <p id="subtitle">
+        [Temp]
       </p>
 
       <h2>Games</h2>
@@ -28,10 +28,10 @@ function Projects() {
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                  <img src="gifs/milopuzzlescene.gif" class="d-block w-100" alt="GIF showing puzzle scene gameplay for The Brilliant Detective Milo" />
+                  <img src="images/gifs/milopuzzlescene.gif" class="d-block w-100" alt="GIF showing puzzle scene gameplay for The Brilliant Detective Milo" />
                   </div>
                   <div class="carousel-item">
-                  <img src="gifs/milocomic.gif" class="d-block w-100" alt="GIF showing camera panning to different panels of a comic" />
+                  <img src="images/gifs/milocomic.gif" class="d-block w-100" alt="GIF showing camera panning to different panels of a comic" />
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselMilo" data-bs-slide="prev">
@@ -53,16 +53,18 @@ function Projects() {
                 season to solve a string of copycat killings.
                 <br />
                 <br />
-                Assisted in:
-
+                Assisted in: <br />
+                Dragging and Opening Mechanics for folders, Camera Panning mechanics in puzzle and comic scenes, 
+                Pop-up Menus for suspect selection, Freeplay Modeday selection and implementing preliminary mechanics for saving and loading.
+                <br />
               </p>
-              <a href="https://lukashauge.itch.io/detective-milo-prototype" target="_blank" class="btn btn-primary">Play a Demo</a>
+              <a href="https://lukashauge.itch.io/detective-milo-prototype" target="_blank" class="btn btn-primary btn-dark">Play a Demo</a>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="card w-auto">
-            <img src="gifs/shroudedmoon.gif" class="card-img-top" alt="GIF showing collectible collection in Shrouded Moon gameplay"/>
+            <img src="images/gifs/shroudedmoon.gif" class="card-img-top" alt="GIF showing collectible collection in Shrouded Moon gameplay"/>
             <div class="card-body">
             <h3 class="card-title">Shrouded Moon</h3>
             <h4 class="card-subtitle">Programmer | Unity</h4>
@@ -72,10 +74,12 @@ function Projects() {
               village that is trapped in a cycle due to the ‘Shrouded Moon’.
               <br />
               <br />
-              Assisted in:
-
+              Assisted in: <br />
+              Mechanics for collectable items for the player to gather throughout the game (Coins, Power-ups, Healing items, etc).
+              <br />
+              <br />
             </p>
-            <a href="https://cairoschurz.itch.io/shrouded-moon" target="_blank" class="btn btn-primary">Play the Game</a>
+            <a href="https://cairoschurz.itch.io/shrouded-moon" target="_blank" class="btn btn-primary btn-dark">Play the Game</a>
             </div>
           </div>
         </div>
@@ -87,17 +91,18 @@ function Projects() {
           <div class="card w-auto">
             <div class="card-body">
             <h3 class="card-title">Portfolio Website</h3>
+            <h4 class="card-subtitle">React.js</h4>
             <p class="card-text">
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </p>
-            <a href="https://github.com/bellem23/maddox-website" class="btn btn-primary">View Source Code on GitHub</a>
+            <a href="https://github.com/bellem23/Portfolio" class="btn btn-primary btn-dark">View Source Code on GitHub</a>
             </div>
           </div>
         </div>
 
         <div class="col-md-6">
           <div class="card w-auto">
-            <img src="gifs/particlesystem.gif" class="card-img-top" alt="Particle System showcasing fire, rain, and fireworks" />
+            <img src="images/gifs/particlesystem.gif" class="card-img-top" alt="Particle System showcasing fire, rain, and fireworks" />
             <div class="card-body">
             <h3 class="card-title">Particle System</h3>
             <h4 class="card-subtitle">Unity</h4>

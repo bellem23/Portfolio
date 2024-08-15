@@ -11,7 +11,7 @@ function Home() {
         </h1>
 
         <p id="subtitle">
-          Recent Computer Science Grad... (Take from resume)
+          Recent Computer Science graduate with a passion for problem solving and creating engaging experiences.
         </p>
       </section>
         
@@ -19,11 +19,11 @@ function Home() {
         <h2>
           Get to Know Me...
         </h2>
-        <div class="container-fluid">
-          <Link to='/about'>
-            <div class="card w-auto">
+        <div class="text-column">
+          <Link to='/React-Website/about'>
+            <div class="card w-auto m-2">
               <div class="card-img-top">
-                <img src="/images/me_lights.jpg" class="d-block w-100" alt="Isabelle Maddox in front of a curtain of lights" />
+                <img src="images/me_lights.jpg" class="d-block w-100" alt="Isabelle Maddox in front of a curtain of lights" />
               </div>
               <div class="card-body">
                 <h3 class="card-title">About Me</h3>
@@ -32,10 +32,10 @@ function Home() {
               </div>
             </div>
           </Link>
-          <Link to="/projects">
-            <div class="card w-auto">
+          <Link to="/React-Website/projects">
+            <div class="card w-auto m-2">
               <div class="card-img-top">
-                <img src="/gifs/milopuzzlescene.gif" class="d-block w-100" alt="GIF showing puzzle scene gameplay for The Brilliant Detective Milo" />
+                <img src="images/gifs/milopuzzlescene.gif" class="d-block w-100" alt="GIF showing puzzle scene gameplay for The Brilliant Detective Milo" />
               </div>
               <div class="card-body">
                 <h3 class="card-title">My Projects</h3>

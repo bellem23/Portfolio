@@ -12,8 +12,8 @@ function ContactForm() {
         <div class="container" className="ContactForm-container">
             <h1>Contact Me</h1>
 
-            <form class="row g-3" id="contactForm">
-
+            <form class="row g-3" action="https://formsubmit.co/7b4bb94bd130e85d3b8339d82d49c849" method="POST" id="contactForm">
+            
                 <input type="text" name="_honey" id="honeypot" />
                 <label for="honeypot" class="sr-only">Honeypot</label>
 
