@@ -1,0 +1,37 @@
+h1 {
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+}
+
+#honeypot {
+    display:none;
+}
+
+#ContactForm-container
+{
+    text-align:center;
+}
+
+form {
+    justify-content: center;
+    padding: 5rem;
+    padding-top:0;
+}
+
+input {
+    background-color: white;
+}
+
+#submitButton{
+    text-align: center;
+}
+
+button:hover {
+    background-color: #cac7ea;
+    border-color: #cac7ea;
+}
+
+#thankYouMessage {
+    text-align: center;
+    display: none;
+}

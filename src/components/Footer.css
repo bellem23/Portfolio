@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin-top: 10%;
+}
+
+footer a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+i {
+    padding: 0.5rem;
+}
+
+@media (min-width: 480px) {
+    footer {
+        padding: 12px 0;
+    }
+}
+
+i {
+    justify-content: center;
+}

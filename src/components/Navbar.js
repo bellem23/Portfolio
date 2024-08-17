@@ -14,9 +14,13 @@ function Navbar() {
   if (click) {
     return (
       <header>
-        <nav className="Navbar">
-          <Menu className="Menu" />
-          <Hamburger className="Burger" toggled={click} toggle={setClick} />
+        <nav className="NavMenu">
+          <div className="MenuContent">
+            <Menu />
+          </div>
+          <div className="MenuIcon">
+              <Hamburger toggled={click} toggle={setClick} />
+          </div>
         </nav>
       </header>
     )
@@ -26,20 +30,22 @@ function Navbar() {
     <header>
         <nav className="Navbar">
             <div className="Navbar-container">
-                <Link to='/' className="Navbar-link">
+                <Link to='/Portfolio/' className="Navbar-link">
                   Home
                 </Link>
-                <Link to='/about' className="Navbar-link">
+                <Link to='/Portfolio/about' className="Navbar-link">
                   About
                 </Link>
-                <Link to='/projects' className="Navbar-link">
+                <Link to='/Portfolio/projects' className="Navbar-link">
                   Projects
                 </Link>
-                <Link to='/contact' className="Navbar-link">
+                <Link to='/Portfolio/contact' className="Navbar-link">
                   Contact
                 </Link>
             </div>
-            <Hamburger className="Burger" toggled={click} toggle={setClick} />
+            <div className="MenuIcon">
+              <Hamburger toggled={click} toggle={setClick} />
+            </div>
         </nav>
         
     </header>
