@@ -7,9 +7,15 @@ h1 {
     display:none;
 }
 
+#ContactForm-container
+{
+    text-align:center;
+}
+
 form {
     justify-content: center;
-    padding: 2rem;
+    padding: 5rem;
+    padding-top:0;
 }
 
 input {
@@ -25,3 +31,7 @@ button:hover {
     border-color: #cac7ea;
 }
 
+#thankYouMessage {
+    text-align: center;
+    display: none;
+}

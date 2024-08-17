@@ -1,0 +1,14 @@
+h1 {
+    text-transform: uppercase;
+    padding-bottom: 0.8em;
+}
+
+#about {
+    padding: 0.5em;
+}
+
+picture img {
+    max-width: 100%;
+    border: 10px double white;
+    border-radius: 5px;
+}

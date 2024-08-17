@@ -2,7 +2,6 @@
   text-align: center;
   justify-content: center;
   color:black;
-  padding: 0.5rem;
 }
 
 .about-image {
@@ -12,50 +11,40 @@
 
 body {
 	min-height: 100vh;
-	margin: 0 auto;
+	margin: 0;
 	background-attachment: fixed;
 	background-size: 100vw 100vh;
-	background-color:#cac7ea;
-  background-image: linear-gradient(#cac7ea,#d7c8e7,#d8bfd8);
-  text-align: center;
-  justify-content: center;
+	background: linear-gradient(#cac7ea,#d7c8e7,#d8bfd8);
+	/*background-color:linear-gradient(#cac7ea,#d7c8e7,#d8bfd8);
+	background-image: linear-gradient(#cac7ea,#d7c8e7,#d8bfd8);*/
+	text-align: center;
+	justify-content: center;
 }
 
 h1,
 h2,
 p {
 	font-weight: 400;
-  padding: 1rem;
 }
 
 h1,
 h2 {
-  text-align: center;
-}
-
-h1 {
-  font-family: "Comfortaa", sans-serif;
+  	text-align: center;
 }
 
 p {
 	line-height: 1.5;
-  font-family: "Fredoka", sans-serif;
-}
-
-a {
-	color: var(--color-theme-1);
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none;
+  	font-family: "Fredoka", sans-serif;
 }
 
 h1 {
+	font-family: "Comfortaa", sans-serif;
+	margin-bottom:0;
+	padding-bottom:0;
 	font-size: 2rem;
 	text-align: center;
 	text-transform: uppercase;
-  padding-top: 2rem;
+  	padding-top: 2rem;
 
 }
 
@@ -63,6 +52,13 @@ h2 {
 	font-size: 1rem;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
 
 .text-column {
 	display: flex;
@@ -86,6 +82,8 @@ button:focus:not(:focus-visible) {
 #subtitle {
   padding-top:0;
   text-align: center;
+  margin-bottom:0;
+  padding-bottom: 3rem;
 }
 
 @media (min-width: 720px) {
@@ -104,5 +102,9 @@ button:focus:not(:focus-visible) {
 	position: absolute;
 	width: 1px;
 	white-space: nowrap;
+}
+
+Link {
+	text-decoration: none;
 }
 

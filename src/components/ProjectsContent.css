@@ -1,0 +1,16 @@
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align:center;
+}
+
+.col-md-6 {
+    padding-bottom: 2rem;
+}
+
+p {
+    padding-top: 0.8rem;
+}
