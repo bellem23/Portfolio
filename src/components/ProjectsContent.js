@@ -82,6 +82,7 @@ function ProjectsContent() {
       <div className="row">
         <div className="col-md-6">
           <div className="card w-auto">
+            <img src="assets/images/website.jpg" className="card-img-top" alt="Screenshot of Website Homepage" />
             <div className="card-body">
             <h3 className="card-title">Portfolio Website</h3>
             <h4 className="card-subtitle">React.js</h4>
@@ -102,6 +103,9 @@ function ProjectsContent() {
             <p className="card-text">
               A basic particle system built from scratch in Unity. 
               The particle system was used to create a campfire, a rain cloud, and (with modifications) a firework.
+              <br />
+              <br />
+              <br />
             </p>
             </div>
           </div>
