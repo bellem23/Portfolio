@@ -28,9 +28,13 @@ function AboutContent() {
           <p id="Hobbies">
             Besides working with VGDC, Isabelle sang as a member of UCI Chamber Singers. In her free time, she enjoys reading fantasy novels, playing video games, singing and sewing.
           </p>
-          <div className="row-md-6">
-            <a href="assets/pdfs/maddox_isabelle_resume.pdf" target="_blank" className="btn btn-primary btn-dark m-2 d-inline">Software Engineer Resume</a>
-            <a href="assets/pdfs/maddox_isabelle_game_resume.pdf" target="_blank" className="btn btn-primary btn-dark m-2 d-inline">Gameplay Programmer Resume</a>
+          <div className="row">
+            <div className="col-auto">
+              <a href="assets/pdfs/maddox_isabelle_resume.pdf" target="_blank" className="btn btn-primary btn-dark m-2">Software Engineer Resume</a>
+            </div>
+            <div className="col-auto">
+              <a href="assets/pdfs/maddox_isabelle_game_resume.pdf" target="_blank" className="btn btn-primary btn-dark m-2">Gameplay Programmer Resume</a>
+            </div>
           </div>
         </div>
       </div>
