@@ -7,16 +7,16 @@ export let open;
 function Menu() {
     return (
             <div className="Menu-container">
-                <Link to='/Portfolio/' className="Menu-link">
+                <Link to='/' className="Menu-link">
                     Home
                 </Link>
-                <Link to='/Portfolio/about' className="Menu-link">
+                <Link to='/about' className="Menu-link">
                     About
                 </Link>
-                <Link to='/Portfolio/projects' className="Menu-link">
+                <Link to='/projects' className="Menu-link">
                     Projects
                 </Link>
-                <Link to='/Portfolio/contact' className="Menu-link">
+                <Link to='/contact' className="Menu-link">
                     Contact
                 </Link>
             </div>
