@@ -12,13 +12,13 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/Portfolio/'>
         <Navbar/>
           <Routes>
-            <Route exact path="/Portfolio/" element={<Home/>}/>
-            <Route path="/Portfolio/about" element={<About/>}/>
-            <Route path="/Portfolio/projects" element={<Projects/>}/>
-            <Route path="/Portfolio/contact" element={<Contact/>}/>
+            <Route exact path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/projects" element={<Projects/>}/>
+            <Route path="/contact" element={<Contact/>}/>
           </Routes>
       </Router>
       <Footer />

@@ -30,16 +30,16 @@ function Navbar() {
     <header>
         <nav className="Navbar">
             <div className="Navbar-container">
-                <Link to='/Portfolio/' className="Navbar-link">
+                <Link to='./' className="Navbar-link">
                   Home
                 </Link>
-                <Link to='/Portfolio/about' className="Navbar-link">
+                <Link to='/about' className="Navbar-link">
                   About
                 </Link>
-                <Link to='/Portfolio/projects' className="Navbar-link">
+                <Link to='/projects' className="Navbar-link">
                   Projects
                 </Link>
-                <Link to='/Portfolio/contact' className="Navbar-link">
+                <Link to='/contact' className="Navbar-link">
                   Contact
                 </Link>
             </div>

@@ -47,7 +47,7 @@ function HomeContent() {
                   <p className="card-text">
                   </p>
                 </div>
-                <a href='/Portfolio/Projects' className="stretched-link"></a>
+                <a href='/Portfolio/projects' className="stretched-link"></a>
             </div>
           </div>
             
