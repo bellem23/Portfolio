@@ -23,11 +23,11 @@ function ContactForm() {
 
                 <input type="hidden" name="_next" value="https://bellem23.github.io/Portfolio/contact" />
         
-                <div class="col-md-6">
+                <div class="col-md-6 pb-0">
                 <label for="formName">Full Name</label>
                 <input type="text" class="form-control" id="formName" placeholder="Enter full name" name="name" />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 pb-0">
                     <label for="formEmail">Email address</label>
                     <input type="email" class="form-control" id="formEmail" placeholder="Enter email" name="email" />
                 </div>

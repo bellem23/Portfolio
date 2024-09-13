@@ -41,7 +41,7 @@ function ProjectsContent() {
               <h3 className="card-title">The Brilliant Detective Milo</h3>
               <h4 className="card-subtitle">Lead Programmer | Unity</h4>
               <p className="card-text">
-                A logic based puzzle game about a feline world-className investigator
+                A logic based puzzle game about a feline world-class investigator
                 whom Mew York City’s police department contracts during the Halloween
                 season to solve a string of copycat killings.
                 <br />
