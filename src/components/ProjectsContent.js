@@ -87,7 +87,7 @@ function ProjectsContent() {
             <h3 className="card-title">Portfolio Website</h3>
             <h4 className="card-subtitle">React.js</h4>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+                A portfolio website built using React.js and Bootstrap that houses information about myself.
             </p>
             <a href="https://github.com/bellem23/Portfolio" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
             </div>
