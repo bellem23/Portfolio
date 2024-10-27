@@ -89,7 +89,7 @@ function ProjectsContent() {
             <p className="card-text">
                 A temp. The application was made with Flask, utilizing the Google Books API and Notion API.
             </p>
-            <a href="https://github.com/bellem23/Portfolio" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
+            <a href="https://github.com/bellem23/Book-Cataloging-Web-App" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
             </div>
           </div>
         </div>
