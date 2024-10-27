@@ -80,6 +80,20 @@ function ProjectsContent() {
 
       <h2>Other</h2>
       <div className="row">
+      <div className="col-md-6">
+          <div className="card w-auto">
+            <img src="assets/images/barcode_scanner.jpg" className="card-img-top" alt="Barcode Scanner In Front of Laptop Screen" />
+            <div className="card-body">
+            <h3 className="card-title">Book Cataloging Web Application</h3>
+            <h4 className="card-subtitle">Flask</h4>
+            <p className="card-text">
+                A temp. The application was made with Flask, utilizing the Google Books API and Notion API.
+            </p>
+            <a href="https://github.com/bellem23/Portfolio" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
+            </div>
+          </div>
+        </div>
+
         <div className="col-md-6">
           <div className="card w-auto">
             <img src="assets/images/website.jpg" className="card-img-top" alt="Screenshot of Website Homepage" />
