@@ -8,11 +8,60 @@ function ProjectsContent() {
   return (
     <div className="container w-auto">
       <h1>Projects</h1>
+
+      <h2>Solo Projects</h2>
+      <div className="row">
+        <div className="col-md-6">
+            <div className="card w-auto h-100">
+              <img src="assets/images/barcode_scanner.jpg" className="card-img-top" alt="Barcode Scanner In Front of Laptop Screen" />
+              <div className="card-body">
+              <h3 className="card-title">Book Cataloging Web Application</h3>
+              <h4 className="card-subtitle">Flask</h4>
+              <p className="card-text">
+                A Flask app that allows users to scan books using a barcode scanner and generate an entry into a Notion database. The app utilizes
+                the Google Books API to collect information using a given ISBN and the Notion API to add an entry into a Notion database.
+              </p>
+              <a href="https://github.com/bellem23/Book-Cataloging-Web-App" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div className="card w-auto h-100">
+              <img src="assets/images/website.jpg" className="card-img-top" alt="Screenshot of Website Homepage" />
+              <div className="card-body">
+              <h3 className="card-title">Portfolio Website</h3>
+              <h4 className="card-subtitle">React.js</h4>
+              <p className="card-text">
+                  A portfolio website built using React.js and Bootstrap that houses information about myself.
+              </p>
+              <a href="https://github.com/bellem23/Portfolio" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div className="card w-auto h-100">
+              <img src="assets/gifs/particlesystem.gif" className="card-img-top" alt="Particle System showcasing fire, rain, and fireworks" />
+              <div className="card-body">
+              <h3 className="card-title">Particle System</h3>
+              <h4 className="card-subtitle">Unity</h4>
+              <p className="card-text">
+                A basic particle system built from scratch in Unity. 
+                The particle system was used to create a campfire, a rain cloud, and (with modifications) a firework.
+                <br />
+                <br />
+                <br />
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
       
       <h2>Games</h2>
       <div className="row">
         <div className="col-md-6">
-          <div className="card w-auto">
+          <div className="card w-auto h-100">
             <div className="card-img-top">
               <div id="carouselMilo" className="carousel carousel-dark slide">
                 <div className="carousel-indicators">
@@ -56,7 +105,7 @@ function ProjectsContent() {
           </div>
         </div>
         <div className="col-md-6">
-          <div className="card w-auto">
+          <div className="card w-auto h-100">
             <img src="assets/gifs/shroudedmoon.gif" className="card-img-top" alt="GIF showing collectible collection in Shrouded Moon gameplay"/>
             <div className="card-body">
             <h3 className="card-title">Shrouded Moon</h3>
@@ -78,54 +127,6 @@ function ProjectsContent() {
         </div>
       </div>
 
-      <h2>Other</h2>
-      <div className="row">
-      <div className="col-md-6">
-          <div className="card w-auto">
-            <img src="assets/images/barcode_scanner.jpg" className="card-img-top" alt="Barcode Scanner In Front of Laptop Screen" />
-            <div className="card-body">
-            <h3 className="card-title">Book Cataloging Web Application</h3>
-            <h4 className="card-subtitle">Flask</h4>
-            <p className="card-text">
-                A temp. The application was made with Flask, utilizing the Google Books API and Notion API.
-            </p>
-            <a href="https://github.com/bellem23/Book-Cataloging-Web-App" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-6">
-          <div className="card w-auto">
-            <img src="assets/images/website.jpg" className="card-img-top" alt="Screenshot of Website Homepage" />
-            <div className="card-body">
-            <h3 className="card-title">Portfolio Website</h3>
-            <h4 className="card-subtitle">React.js</h4>
-            <p className="card-text">
-                A portfolio website built using React.js and Bootstrap that houses information about myself.
-            </p>
-            <a href="https://github.com/bellem23/Portfolio" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-6">
-          <div className="card w-auto">
-            <img src="assets/gifs/particlesystem.gif" className="card-img-top" alt="Particle System showcasing fire, rain, and fireworks" />
-            <div className="card-body">
-            <h3 className="card-title">Particle System</h3>
-            <h4 className="card-subtitle">Unity</h4>
-            <p className="card-text">
-              A basic particle system built from scratch in Unity. 
-              The particle system was used to create a campfire, a rain cloud, and (with modifications) a firework.
-              <br />
-              <br />
-              <br />
-            </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </div>
   );
 }
