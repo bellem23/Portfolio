@@ -21,7 +21,7 @@ function ProjectsContent() {
                 A Flask app that allows users to scan books using a barcode scanner and generate an entry into a Notion database. The app utilizes
                 the Google Books API to collect information using a given ISBN and the Notion API to add an entry into a Notion database.
               </p>
-              <a href="https://github.com/bellem23/Book-Cataloging-Web-App" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
+              <a href="https://github.com/bellem23/Book-Cataloging-Web-App" target="_blank" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ function ProjectsContent() {
               <p className="card-text">
                   A portfolio website built using React.js and Bootstrap that houses information about myself.
               </p>
-              <a href="https://github.com/bellem23/Portfolio" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
+              <a href="https://github.com/bellem23/Portfolio" target="_blank" className="btn btn-primary btn-dark">View Source Code on GitHub</a>
               </div>
             </div>
           </div>
