@@ -1,10 +1,11 @@
 import React from 'react'
 import './ContactForm.css';
 
-//const submitted = false;
+const handleSubmit = (event) => {
 
-function hideForm() {
-    //submitted = !submitted;
+    event.preventDefault();
+
+    console.log("Form submitted")
 
     document.getElementById("contactForm").style.display = 'none';
     document.getElementById("thankYouMessage").style.display = 'flex';
@@ -15,7 +16,7 @@ function ContactForm() {
         <div className="ContactForm-container">
             <h1>Contact Me</h1>
 
-            <form class="row g-3" action="https://formsubmit.co/7b4bb94bd130e85d3b8339d82d49c849" method="POST" id="contactForm">
+            <form class="row g-3" onSubmit={handleSubmit} action="https://formsubmit.co/7b4bb94bd130e85d3b8339d82d49c849" method="POST" id="contactForm">
                 <input type="text" name="_honey" id="honeypot" />
                 <label for="honeypot" class="sr-only">Honeypot</label>
 
@@ -40,7 +41,7 @@ function ContactForm() {
                     <textarea class="form-control" id="formMessage" rows="3" placeholder="Enter message" name="message"></textarea>
                 </div>
                 <div id="submitButton">
-                    <button type="submit" class="btn btn-primary-2 btn-dark" id="submit" onClick={hideForm}>Submit</button>
+                    <button type="submit" class="btn btn-primary-2 btn-dark" id="submit">Submit</button>
                 </div>
             </form>
 
