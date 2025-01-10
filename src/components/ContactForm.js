@@ -5,9 +5,20 @@ const handleSubmit = (event) => {
 
     event.preventDefault();
 
+    const form = document.getElementById("contactForm")
+    const formData = new FormData(form)
+    const url = "https://formsubmit.co/7b4bb94bd130e85d3b8339d82d49c849"
+    fetch(
+      url,
+      {
+        method: 'POST',
+        body: formData
+      }
+    )
+
     console.log("Form submitted")
 
-    document.getElementById("contactForm").style.display = 'none';
+    form.style.display = 'none';
     document.getElementById("thankYouMessage").style.display = 'flex';
 }
 
@@ -16,7 +27,7 @@ function ContactForm() {
         <div className="ContactForm-container">
             <h1>Contact Me</h1>
 
-            <form class="row g-3" onSubmit={handleSubmit} action="https://formsubmit.co/7b4bb94bd130e85d3b8339d82d49c849" method="POST" id="contactForm">
+            <form class="row g-3" onSubmit={handleSubmit} method="POST" id="contactForm">
                 <input type="text" name="_honey" id="honeypot" />
                 <label for="honeypot" class="sr-only">Honeypot</label>
 
